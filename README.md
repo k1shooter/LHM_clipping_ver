@@ -21,3 +21,11 @@ Updated : I added background merging process with ffmpeg. Auto background resizi
 ```
 python merge_background.py <background_img_path>.jpg <forground_video_path>.mp4 <output_path>.mp4
 ```
+
+Updated : I added linear interpolate on frames for external smpl data importing (all zero of beta)
+
+Select smplx_params folder on the python code
+
+```
+python frame_linear_interpolate.py 
+```
